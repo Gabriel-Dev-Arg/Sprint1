@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(10, 127, 237);
+    font-family: cursive;
+}
+/*header*/
+
+header :hover{
+    color: aquamarine;
+
+}
+/*nav*/
+nav{
+    
+    background-color: rgb(77, 74, 74);
+    height:10vh;
+    
+    
+    
+}
+.active{
+    font-weight: bold;
+    color: #131313;
+    border-bottom: 10px solid #0d0d0e;
+    font-size: 20px;
+}
+/* edicion dedl logo nav*/
+.logo{
+    height: 10vh;
+    object-fit: cover;
+    position: relative;
+    margin-bottom: 10px;
+    left: 93%;
+    background-color: rgb(77, 74, 74);
+    
+
+}
+/*etiqueta a */
+.nav-bar{
+    right: 70px;
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    bottom: 20px;
+    border-radius: 20px;
+    border: 30px;
+    text-decoration: none; 
+    background-color: rgb(0, 157, 255);
+    color: black;
+    margin: 16px;
+    padding: 10px;
+}
+
+
+/*Main Content*/
+.centrar{
+    text-align: center;
+}
+h1{
+   
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.titulo_h2{
+    font-size: 20px;
+    width: 40%;
+    position: absolute;
+    margin: 100px;
+}
+
+
+.margin_h3{
+    margin: 15px;
+}
+
+/*pagina 1*/
+.img1{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    border: 2px solid rgb(10, 10, 10);
+    
+}
+/*pagina 1*/
+.img2{
+    height: 30vh;
+    width: 20%;
+    position: relative;
+    left: 55%;
+    margin: 20px;
+    border: 5px solid rgb(10, 10, 10);
+    object-fit: cover;
+}
+/*pagina 2*/
+.img3{
+    width: 25%;
+    height: 20vh;
+    margin: 20px;
+    position: relative;
+    left: 20%;
+    object-fit: cover;
+    border: 5px solid rgb(10, 10, 10);
+}
+/*pagina 3*/
+.img4{
+
+    margin: 30px;
+    width: 100vh;
+    height: 50vh;
+    position: relative;
+    left: 20%;
+    border: 5px solid rgb(10, 10, 10);
+}
+
+
+
+/* edicion de parrafo*/
+.edit_P
+{
+    position: relative;
+    margin-right: 100px;
+    top: 100px;
+    width: 40%;
+    float: right;
+    text-align: center;
+    overflow: hidden;
+   
+}
+/*pagina 3*/
+
+.styled_h3{
+    width: 50%;
+    align-items: center;
+    position: relative;
+    left: 25%;
+
+}
+
+/*contenedor*/
+/*pagina 3*/
+.contact-container {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+/*pagina 3*/
+.phone-number {
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(18, 18, 18);
+    padding: 50px;
+}
+/*pagina 3*/
+.email {
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(16, 15, 15);
+    padding: 50px;
+}
+
+/*editar fontsize*/
+.edit_fontsize{
+    font-size: 30px;
+
+}
+/*footer*/
+
+footer h4{
+    height: 50px;
+    text-align: center;
+    background-color: rgb(77, 74, 74);
+    margin-top: 2%;
+
+}
+
